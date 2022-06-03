@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+.main{
+    background-color: rgba(189, 107, 107, 0.5);
+    text-align: center;
+    margin: 0px;
+    padding: 1px;
+}
+
+ul{
+   
+    list-style-type:none;
+    margin-top: 25px;
+    margin-left: 40px;
+    
+}
+ul li{
+    display: inline-flex;
+    margin: 0px;
+    text-align: center;
+    font-size: 30px;
+    padding: 0px;
+    
+}
+ul li a{
+    text-decoration: none;
+    color:rgb(9, 255, 0);
+    padding: 20px 10px;
+   
+}
+a:hover{
+    color: rgb(180, 24, 133);
+}
+

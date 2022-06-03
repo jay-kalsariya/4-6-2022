@@ -1,0 +1,56 @@
+* {
+    margin: 5px;
+    padding: 5px;
+}
+
+body {
+    margin: 10px;
+    padding: 10px;
+}
+
+
+header{
+    background-color: blueviolet;
+    color: aliceblue;
+    height: 70px;
+    text-align: center;    
+
+
+}
+
+
+ 
+li{
+    display: inline-flex;
+    margin: 2px;
+    padding: 4px;
+    width: 80px;
+}
+a {
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.Right {
+
+    height:411px;
+    width: 457px;
+    background-color: red;
+    display: inline-block;
+    border: 3px solid blue;
+   
+
+}
+
+.left {
+    height: 411px;
+    width: 457px;
+    background-color: darkgreen;
+    display: inline-block;
+   border: 3px solid rgb(238, 84, 12);
+}
+
+h2 {
+    text-align: center;
+}

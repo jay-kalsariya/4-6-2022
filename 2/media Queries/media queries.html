@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Media queries</title>
+  <style>
+  body {
+    background-color: pink;
+  }
+  h3{
+    text-align: center;
+    background-color: burlywood;
+    margin: 1px;
+    padding: 10px
+  }
+  .post{
+    background-color: cornflowerblue;
+    overflow: hidden;
+    color: rgb(214, 18, 18);
+   
+  }
+  hr{
+    border: 3px solid rgb(69, 6, 216);
+  }
+  .post ul li{
+    margin: 20px;
+    padding: 10px;
+    font-size: xx-large;
+    font-style: italic;
+    text-align: center;
+    display: block;
+    margin-top: 2px;
+    margin-left: -13px;
+    float: left;
+    box-shadow: brown;
+}
+.post ul li:hover{
+  background-color: rgb(99, 42, 165);
+  color: rgb(30, 224, 104);
+  border: 3px solid rgb(84, 31, 231);
+  box-shadow: 5px 5px 5px yellowgreen;
+  border-radius: 10px;
+}
+
+  @media screen and (min-width: 700px) {
+    body {
+      background-color: lightgreen;
+    }
+  }
+  </style>
+  </head>
+  <body>
+   <h3>Media Queries</h3>
+   <div class="post">
+   <ul>
+     <li>Home</li>
+     <li>About</li>
+     <li>contact</li>
+     <li>Service</li>
+     <li>Gellary</li>
+   </ul>
+    </div>
+  <hr>
+ 
+  <img src="1.jpg" height="490px" width="1400px">
+   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate dolores autem ut fugit exercitationem. Ipsum, soluta. Modi ea enim cum autem nihil totam, magnam tempora omnis, ipsa sapiente ut necessitatibus How do you write a good introduction?
+    Image result for introduction
+    How to Write a Good Introduction
+    Keep your first sentence short.
+    Don't repeat the title.
+    Keep the introduction brief.
+    Use the word “you” at least once.
+    Dedicate 1-2 sentences to articulating what the article covers.
+    Dedicate 1-2 sentences to explaining why the article is important.</p>
+  
+
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+*{
+    margin: 2px;
+    padding: 0;
+}
+body{
+    background-color: darkgoldenrod;
+}
+.newspaper{
+    column-count: 3;
+    column-gap: 30px;
+    column-rule-style: dotted;
+    column-rule-color: cornflowerblue;
+    resize: horizontal;
+}
+h2{
+    text-align: center;
+    background-color: aquamarine;
+}
